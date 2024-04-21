@@ -1,0 +1,19 @@
+// babel.config.json is used for root-level configuration in monorepos or projects where you want to share configuration across multiple packages or directories.
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ]
+}

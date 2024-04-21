@@ -1,0 +1,8 @@
+// .babelrc is typically used for project-specific configuration
+{
+  "presets": [
+    "@babel/react",
+    "@babel/typescript",
+    ["@babel/env", { "modules": false }]
+  ]
+}
